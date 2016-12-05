@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Computer_Hardware</string>
+
+    <string name="login_title">Computer Hardware</string>
+    <string name="register_title">Member Register</string>
+    <string name="username_title">Username</string>
+    <string name="name1_title">Name</string>
+    <string name="password_title">Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_Signup">Signup</string>
+    <string name="button_Back">Signup</string>
+    <string name="register">New User? Register here</string>
+    <string name="login_error_message">Username or Password is incorrect.</string>
+    <string name="hardwaretype">Computer Hardware</string>
+</resources>

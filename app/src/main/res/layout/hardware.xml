@@ -1,0 +1,186 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#ff3eaff9"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="#ffffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hardwaretype"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPU"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                />
+
+            <ImageButton
+                android:layout_height="200dp"
+                android:id="@+id/img1"
+                android:scaleType="fitXY"
+                android:onClick="Onclickimg1"
+                android:src="@drawable/cpu"
+                android:layout_width="260dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mainborad"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                />
+
+            <ImageButton
+                android:layout_height="200dp"
+                android:id="@+id/img2"
+                android:scaleType="fitXY"
+                android:onClick="Onclickimg2"
+                android:layout_width="260dp"
+                android:src="@drawable/mainboard" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAM"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                />
+
+            <ImageButton
+                android:layout_height="200dp"
+                android:id="@+id/img3"
+                android:scaleType="fitXY"
+                android:onClick="Onclickimg3"
+                android:layout_width="260dp"
+                android:src="@drawable/ram" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Graphic card"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                />
+
+            <ImageButton
+                android:layout_height="200dp"
+                android:id="@+id/img4"
+                android:scaleType="fitXY"
+                android:onClick="Onclickimg4"
+                android:src="@drawable/vga"
+                android:layout_width="260dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harddisk"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                />
+
+            <ImageButton
+                android:layout_height="200dp"
+                android:id="@+id/img5"
+                android:scaleType="fitXY"
+                android:onClick="Onclickimg5"
+                android:layout_width="260dp"
+                android:src="@drawable/hard" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Power supply"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                />
+
+            <ImageButton
+                android:layout_height="200dp"
+                android:id="@+id/img6"
+                android:scaleType="fitXY"
+                android:onClick="Onclickimg6"
+                android:layout_width="260dp"
+                android:src="@drawable/p1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monitor"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                />
+
+            <ImageButton
+                android:layout_height="200dp"
+                android:id="@+id/img7"
+                android:scaleType="fitXY"
+                android:onClick="Onclickimg7"
+                android:layout_width="260dp"
+                android:src="@drawable/mo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mouse"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                />
+
+            <ImageButton
+                android:layout_height="200dp"
+                android:id="@+id/img8"
+                android:scaleType="fitXY"
+                android:onClick="Onclickimg8"
+                android:layout_width="260dp"
+                android:src="@drawable/mmmmm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keyboard"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                />
+
+            <ImageButton
+                android:layout_height="200dp"
+                android:id="@+id/img9"
+                android:scaleType="fitXY"
+                android:onClick="Onclickimg9"
+                android:layout_width="260dp"
+                android:src="@drawable/razer" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

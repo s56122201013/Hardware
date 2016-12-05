@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#ff3eaff9"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="#ffffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mainboard"
+                android:textSize="24sp"
+                android:textColor="#ff3eaff9"
+                />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:id="@+id/listview"
+                android:layout_weight="1.72"
+                android:layout_height="600dp" />
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>
